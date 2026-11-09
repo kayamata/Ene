@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <meta name="description" content="A little birthday surprise, just for you." />
+  <meta name="theme-color" content="#f9e4ec" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23e0698c' d='M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="pre-open">
+
+  <!-- ══════════════ WELCOME SCREEN ══════════════ -->
+  <div id="welcome" class="welcome" role="dialog" aria-label="Birthday welcome">
+    <div class="welcome-inner">
+      <p class="welcome-eyebrow reveal">a little something, just for you</p>
+      <h1 class="welcome-title">
+        <span class="line">Happy Birthday,</span>
+        <span class="line name">Ene ❤️</span>
+      </h1>
+      <p class="welcome-sub reveal">I made this for you. It only takes a minute —<br />but I hope it stays with you longer.</p>
+      <button id="openBtn" class="btn-primary reveal" type="button">
+        Open Your Surprise
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg>
+      </button>
+      <p class="welcome-hint">tap to begin</p>
+    </div>
+    <div class="welcome-hearts" aria-hidden="true">
+      <span class="float-heart h1">♥</span>
+      <span class="float-heart h2">♥</span>
+      <span class="float-heart h3">♥</span>
+    </div>
+  </div>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <header class="nav" id="nav">
+    <a class="nav-brand" href="#birthday">For You</a>
+    <nav class="nav-links" id="navLinks" aria-label="Sections">
+      <a href="#story">Our Story</a>
+      <a href="#letter">The Letter</a>
+      <a href="#music">Music</a>
+      <a href="#finale" class="nav-cta">Finale</a>
+    </nav>
+    <button class="nav-burger" id="navBurger" type="button" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="experience">
+
+    <!-- ══════════════ BIRTHDAY MESSAGE ══════════════ -->
+    <section id="birthday" class="section hero">
+      <div class="container narrow">
+        <p class="eyebrow reveal">with all my love</p>
+        <h2 class="section-title reveal">Happy Birthday,<br /><em>Ene</em> ❤️</h2>
+        <div class="message reveal">
+          <p>Happy Birthday.</p>
+          <p>I don't always say these things out loud, so I made this little place for them.</p>
+          <p>Another year of you — your laugh, your warmth, the way you make ordinary moments feel like they matter. I'm grateful for every version of you I've gotten to know, and honestly excited for the ones still to come.</p>
+          <p>Today isn't just about cake and candles. It's about you. And I'm very glad you were born.</p>
+          <p class="signoff">— yours, always</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg></div>
+
+    <!-- ══════════════ OUR STORY ══════════════ -->
+    <section id="story" class="section">
+      <div class="container narrow">
+        <p class="eyebrow reveal">us, so far</p>
+        <h2 class="section-title reveal">Beyond<br /><em>Undefined</em> ❤️</h2>
+        <div class="story-body reveal">
+          <p>Three years ago, we didn't really know what we were. And honestly, even after all this time, our journey has come with its fair share of uncertainties. We've gone through different phases, different moments, and different versions of what we thought we were. Some beautiful, some confusing, and some we probably wouldn't want to experience twice.</p>
+          <p>We've had our highs and lows, our good days and difficult ones, moments when everything seemed to make sense and others when we couldn't quite figure out where we stood. We've had misunderstandings, distance, silence, breaks, and moments that made us question a lot of things.</p>
+          <p>But through it all, one thing I've come to appreciate is how much we've learned. We've had to learn patience, honesty, understanding, and how to acknowledge our mistakes. We're gradually learning that figuring things out takes more than feelings; it takes effort, communication, and a willingness to understand each other.</p>
+          <p>I think we've spent quite some time navigating different phases, sometimes knowing where we were going and other times just trying to understand what was happening. And maybe that's part of our story. We've been through a lot of uncertainty, but I believe it's important that we don't remain there forever.</p>
+          <p>I think it's time we start finding our path. Not necessarily having every answer right now, but making a conscious effort to understand what we want, where we're going, and how we can get there together.</p>
+          <p>The names we've given ourselves along the way don't really matter that much. What matters is the journey, the lessons, the growth, and what we choose to make of this next chapter.</p>
+          <p>And honestly, for a long-distance couple, I think we're really trying. We're not perfect, but we're learning.</p>
+          <p class="story-highlight">We've been through different phases, but I'd love for this one to be different. Less uncertainty, more understanding. Less confusion, more direction. More intentionality, more beautiful moments, and hopefully, a clearer path for us both. Here's to finding our way, one step at a time. ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg></div>
+
+    <!-- ══════════════ THE LETTER ══════════════ -->
+    <section id="letter" class="section">
+      <div class="container narrow">
+        <p class="eyebrow reveal">a keepsake</p>
+        <h2 class="section-title reveal">A Letter I Still<br /><em>Keep ❤️</em></h2>
+        <figure class="letter-frame reveal">
+          <button class="letter-img-btn" id="letterBtn" type="button" aria-label="View the letter full size">
+            <img id="letterImg" src="images/letter.jpg" alt="A handwritten letter, kept safe" />
+          </button>
+          <figcaption class="letter-hint">tap to read it up close</figcaption>
+        </figure>
+        <div class="letter-note reveal">
+          <p>I don't know if you remember this letter, but I still have it. Every now and then, I go back to read it, and it brings back a certain feeling I can't quite explain. It's one of those little things you've given me that I never really wanted to let go of. Maybe it looks like just a letter to you, but to me, it's a memory worth keeping. And honestly, I'm glad I kept it.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg></div>
+
+    <!-- ══════════════ MUSIC ══════════════ -->
+    <section id="music" class="section">
+      <div class="container narrow">
+        <p class="eyebrow reveal">our soundtrack</p>
+        <h2 class="section-title reveal">A Little Music,<br /><em>A Lot of Memories</em></h2>
+        <p class="section-sub reveal">Every song on this playlist means something. Press play whenever you're ready — no rush.</p>
+        <div class="music-wrap reveal" id="musicWrap">
+          <!-- Spotify embed is injected here once you add your playlist ID in script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ LITTLE SURPRISE ══════════════ -->
+    <section id="surprise" class="section">
+      <div class="container narrow center">
+        <p class="eyebrow reveal">one more thing</p>
+        <h2 class="section-title reveal">Psst…</h2>
+        <button class="btn-secondary reveal" id="surpriseBtn" type="button" aria-expanded="false">
+          Open it
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg>
+        </button>
+        <div class="surprise-card hidden" id="surpriseCard">
+          <p>Distance means so little, when someone means so much.</p>
+          <p>I hope this year gives you everything you quietly wished for — the soft kind of happiness, the deep kind of peace, and at least one ridiculous, unforgettable adventure.</p>
+          <p class="surprise-sign">Happy birthday, Ene. — yours, always</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 21s-7.5-4.9-10-9.5C.5 8 2.5 4.5 6 4.5c2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5 3.5 0 5.5 3.5 4 7C19.5 16.1 12 21 12 21z"/></svg></div>
+
+    <!-- ══════════════ FINALE ══════════════ -->
+    <section id="finale" class="section finale">
+      <div class="container narrow center">
+        <p class="eyebrow reveal">the end… or the beginning?</p>
+        <h2 class="section-title reveal">Happy Birthday,<br /><em>Ene</em> ❤️</h2>
+        <div class="message reveal">
+          <p>Three years of distance, of learning, of almosts and everythings — and somehow you're still the person I want to tell everything to.</p>
+          <p>Whatever this year brings, I hope it brings you peace, joy, and everything beautiful you deserve.</p>
+          <p>Thank you for being you.</p>
+          <p class="signoff">Happy birthday, Ene.<br />— yours, always ❤️</p>
+        </div>
+        <button class="btn-ghost reveal" id="replayBtn" type="button">Read it again</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>made with love, just for you</p>
+  </footer>
+
+  <!-- ══════════════ BACKGROUND MUSIC PLAYER ══════════════ -->
+  <div class="music-pill" id="musicPill">
+    <div class="mp-icon" aria-hidden="true">
+      <svg class="mp-note" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+      <span class="mp-eq"><i></i><i></i><i></i></span>
+    </div>
+    <div class="mp-text">
+      <span class="mp-title">Hey There Delilah</span>
+      <span class="mp-artist">Plain White T's</span>
+    </div>
+    <button class="mp-toggle" id="mpToggle" type="button" aria-label="Play music">
+      <svg class="ic-play" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+      <svg class="ic-pause" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <div class="mp-progress" id="mpProgress" role="progressbar" aria-label="Song progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="mp-progress-fill" id="mpProgressFill"></div>
+    </div>
+  </div>
+  <audio id="bgAudio" src="public/audio/hey-there-delilah.mp3" preload="metadata" loop></audio>
+
+  <!-- ══════════════ LIGHTBOX ══════════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">×</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
