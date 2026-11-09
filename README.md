@@ -24,7 +24,7 @@ Everything you need to change lives in two places:
   playlist link (`open.spotify.com/playlist/`**`THIS_PART`**). Leave it empty
   and a soft placeholder shows instead.
 - **Background song** — "Hey There Delilah" plays from
-  `public/audio/hey-there-delilah.mp3` via the floating ♪ pill
+  `audio/hey-there-delilah.mp3` via the floating ♪ pill
   (bottom-right). It starts when she taps "Open Your Surprise"
   and keeps playing while she scrolls. To swap the song, replace
   the MP3 and update `AUDIO_SRC` in `script.js` if the filename changes.

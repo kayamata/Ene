@@ -19,11 +19,11 @@ const LETTER_IMAGE = "images/letter.jpg";
 
 /* ── ★ BACKGROUND SONG ★ ────────────────────────
    "Hey There Delilah" — Plain White T's.
-   The MP3 lives at public/audio/hey-there-delilah.mp3.
+   The MP3 lives at audio/hey-there-delilah.mp3.
    To use a different song, drop the file in
    public/audio/ and update AUDIO_SRC below.
    ─────────────────────────────────────────────── */
-const AUDIO_SRC = "public/audio/hey-there-delilah.mp3";
+const AUDIO_SRC = "audio/hey-there-delilah.mp3";
 /* ─────────────────────────────────────────────── */
 
 (function () {
